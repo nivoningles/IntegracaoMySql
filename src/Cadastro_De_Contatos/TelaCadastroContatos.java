@@ -20,6 +20,7 @@ public class TelaCadastroContatos {
     private JButton btnAdicionar;
     private JButton btnRemover;
     private JTable tbContatos;
+    private JScrollPane jScroll;
     private int contador = 0;
 
     public TelaCadastroContatos() {
