@@ -5,8 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Calculadora {
-    private JPanel panelCalculadora;
+public class Calculadora extends JFrame{
+    public JPanel panelCalculadora;
     private JButton btn1;
     private JButton btn4;
     private JButton btn6;

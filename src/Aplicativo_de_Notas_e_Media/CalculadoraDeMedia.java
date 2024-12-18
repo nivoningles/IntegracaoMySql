@@ -6,16 +6,12 @@ import java.util.Locale;
 
 public class CalculadoraDeMedia {
 
-    private List<Double> salvNotas = new ArrayList<Double>();
     private Double resultadoNotas;
     private Double soma = 0.;
-    private int contar = 0;
 
     public void salvarNota(String nota){
 
-        salvNotas.add(Double.parseDouble(nota));
-        soma = soma + salvNotas.get(contar);
-        contar++;
+        soma = soma + Double.parseDouble(nota);
 
     }
 
@@ -28,8 +24,6 @@ public class CalculadoraDeMedia {
 
     public void limpar(){
 
-        salvNotas.clear();
-        contar = 0;
         soma = 0.;
 
     }

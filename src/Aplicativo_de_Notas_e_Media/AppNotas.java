@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AppNotas {
-    private JPanel panelAppNotas;
+public class AppNotas extends JFrame {
+    public JPanel panelAppNotas;
     private JPanel panelInferior;
     private JPanel panelSuperior;
     private JPanel panelSupDireito;

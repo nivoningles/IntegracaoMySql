@@ -6,8 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Locale;
 
-public class Calculadora_IMC {
-    private JPanel panelDeAcesso;
+public class Calculadora_IMC extends JFrame {
+    public JPanel panelDeAcesso;
     private JTextField txtfPeso;
     private JTextField txtfAltura;
     private JButton btnCalcular;
